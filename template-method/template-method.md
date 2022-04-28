@@ -12,7 +12,9 @@ Application 클래스와 Document 클래스를 제공하는 응용프로그램 �
 
 추상 클래스인 Application 클래스에는 문서를 열 수 있는 OpenDocument() 연산이 있다고 가정합니다. 이 안에는 문서를 열고 읽는 기본 알고리즘이 정의되어 있습니다.  
 
-여기서 OpenDocument()는 문서를 여는 `필수적인 절차`를 정의합니다. 응용 프로그램마다 필요한 Document 객체를 생성하고, 이를 Document 객체 집합에 추가한 뒤, 파일에서 문서를 읽어서 Document 객체에 담습니다. 이 같은  필수적인 절차를 정의한 메소드를 우리는 `템플릿 메소드` 라고 부릅니다.  
+여기서 OpenDocument()는 문서를 여는 `필수적인 절차`를 정의합니다. 응용 프로그램마다 필요한 Document 객체를 생성하고, 이를 Document 객체 집합에 추가한 뒤, 파일에서 문서를 읽어서 Document 객체에 담습니다. 이 같은 필수적인 절차를 정의한 메소드를 우리는 `템플릿 메소드` 라고 부릅니다.  
+
+![](https://scvgoe.github.io/img/template_method.gif)
 
 ### 언제, 사용할 수 있을까?
 
